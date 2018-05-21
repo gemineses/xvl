@@ -7,9 +7,10 @@ int main(){
 	while(q==1){
 		printf("Hey! \n");
 		scanf("%s", master_order);
-		if(strcmp(master_order,"exit")){
-			printf("bye bye...");
+		if(strcmp(master_order,"exit")==0){
+			printf("\n bye bye...");
 			q=0;
 		}
+		printf("\n -------- ");
 	}
 }
